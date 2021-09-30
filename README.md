@@ -35,7 +35,7 @@ python decode.py --model save/model --input compressed.npz --output compressed.p
 Evaluation, code from Tensorflow's official [repo](https://github.com/tensorflow/models/blob/master/research/compression/image_encoder/msssim.py)
 
 ```
-python msssim.py -o Lena.png -c compressed.png
+python msssim.py -o Lena.png -c Compressed.png
 ```
 
 #Usage (with GUI)
