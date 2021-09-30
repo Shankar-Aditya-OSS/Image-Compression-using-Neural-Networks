@@ -38,7 +38,8 @@ Evaluation, code from Tensorflow's official [repo](https://github.com/tensorflow
 python msssim.py -o Lena.png -c Compressed.png
 ```
 
-#Usage (with GUI)
+#Usage (with GUI):
+```
 1.Open cmd and head to project folder.
 2.Type:
 ```
@@ -50,5 +51,5 @@ python GUI.py
 6.Click on Decode button, the binary file will be accessed and the image will be re-constructed from that data.
 7.By clicking on Eval button, it will compare the original image and re-constructed image,
 8.MSSIM: 0.96 - 1 are said to be the good values,which means the re-constructed image is almost similar to the original image.
-
+```
 # Image-Compression-using-Neural-Networks
