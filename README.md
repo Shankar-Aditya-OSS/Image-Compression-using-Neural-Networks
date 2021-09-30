@@ -8,7 +8,7 @@ Original image:
 
 Reconstructed:
 
-![reconstruction](compressed.png)
+![reconstruction](Compressed.png)
 
 ### Requirements
 - SciPy - 1.4.1
@@ -23,13 +23,11 @@ python train.py -f imgs
 ```
 
 Encoding
-
 ```
 python encode.py --model save/model --input Lena.png --iters 10 --output compressed.npz
 ```
 
 Decoding
-
 ```
 python decode.py --model save/model --input compressed.npz --output compressed.png
 ```
@@ -38,7 +36,6 @@ Evaluation, code from Tensorflow's official [repo](https://github.com/tensorflow
 
 ```
 python msssim.py -o Lena.png -c compressed.png
-
 ```
 
 #Usage (with GUI)
@@ -46,7 +43,6 @@ python msssim.py -o Lena.png -c compressed.png
 2.Type:
 ```
 python GUI.py
-
 ```
 3.A tkinter window will pop up.
 4.Browse to Dataset folder and select an image, only png images are accepted.
