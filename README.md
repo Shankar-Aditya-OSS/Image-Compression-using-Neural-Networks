@@ -38,7 +38,7 @@ Evaluation, code from Tensorflow's official [repo](https://github.com/tensorflow
 python msssim.py -o Lena.png -c Compressed.png
 ```
 
-#Usage (with GUI):
+###Usage(with GUI)
 ```
 1.Open cmd and head to project folder.
 2.Type:
