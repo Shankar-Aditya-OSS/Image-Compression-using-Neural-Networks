@@ -15,6 +15,7 @@ Reconstructed:
 - Tensorflow 2.5.0
 
 Before executing make sure to change folder locations in the code accordingly.
+
 ### Usage(without GUI)
 Training, put training data in `Dataset` folder and run following code for default setting. The model parameter can be modified in `model.py`. Running time comparison of original and reconstructed images can be seen in `eval/`. Model file is saved in `save/model`.
 
@@ -38,7 +39,7 @@ Evaluation, code from Tensorflow's official [repo](https://github.com/tensorflow
 python msssim.py -o Lena.png -c Compressed.png
 ```
 
-###Usage(with GUI)
+### Usage(with GUI)
 ```
 1.Open cmd and head to project folder.
 2.Type:
