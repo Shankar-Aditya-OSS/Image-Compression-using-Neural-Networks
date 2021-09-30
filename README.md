@@ -42,9 +42,7 @@ python msssim.py -o Lena.png -c Compressed.png
 ```
 1.Open cmd and head to project folder.
 2.Type:
-```
-python GUI.py
-```
+   python GUI.py
 3.A tkinter window will pop up.
 4.Browse to Dataset folder and select an image, only png images are accepted.
 5.Click on Encode button, a binary file will be created and saved in the folder
